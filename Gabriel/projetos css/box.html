@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+       nav{
+        background-color: rgba(58, 62, 62, 0.6);
+        text-align: right;
+        padding: 20px;
+       } 
+
+       ul, li { 
+        text-decoration: none; 
+        display: inline-block;
+       }
+
+       li {
+        padding-left: 50px;
+       }
+
+       a{ 
+        text-decoration: none;
+        color: #ffffff;
+        font-family: sans-serif;}
+
+       body{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: px;
+       }
+
+    *{margin: 0; padding: 0;}
+
+    .box1{
+        width: 40%;
+        height: 210px;
+    }
+
+    .box2{
+        width: 60%;
+        height: 210px;
+    }
+
+    img{
+        width: 60%;
+        height: 200px;
+    }
+
+    section{
+        display: flex;
+        height: 220px;
+    }
+
+    .box2 {
+        display: block;
+        justify-content: space-between;
+    }
+
+    p{
+        font-family: sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 5px;
+        text-align: justify;
+    }
+
+    .container3 {
+        
+        display: flex;
+        height: 210px
+    }
+
+    .image {
+        height: 180px;
+        width: 100%;
+    }
+
+    img {
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1:hover{
+        color: rgb(251, 3, 3);
+    }
+
+    .box4 {
+        height: 300px;
+        width: 250;
+        margin: 10px;
+        border: 0.5px solid rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        box-shadow: 5px 5px rgba(0,0,0, 0.068);
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .container4 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px; height: 350px;
+    }
+
+    .box1, .box2 {
+        margin: 5px;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 2px, 2px rgba(0, 0, 0, 0.08);
+    }
+
+    .box4:hover {
+        transform: scale(1.04);
+    }
+
+    .viagem {
+        width: 100%;
+        border-radius: 10px;
+        padding: none;
+        object-fit: fill;
+    }
+
+    .tit {
+        text-align: center;
+        border-bottom: double 1px #a4d8e1c2;
+    }
+
+    a:hover {
+        color: rgba(252, 183, 55);
+    }
+
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+       <li><a href="">inicio</a></li>
+       <li><a href="">contato</a></li>
+       <li><a href="">Sobre</a></li> 
+    </nav>
+
+    <main>
+        <section id="container1">
+            <div class="box1">
+                <h1>Titulo</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eius quis eaque quae a itaque. Voluptatibus accusantium, minima nesciunt officiis iusto corporis perspiciatis quos tempora aspernatur aliquid alias esse nostrum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate aliquid ad, iusto facere quaerat provident, ullam ipsa rerum odio fugiat quos voluptates ex reiciendis odit alias perferendis sint veniam.</p>
+            </div>
+            <div class="box2">
+                <h1>Titulo</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe libero ullam assumenda in, voluptatibus ad delectus, vitae perferendis quis velit vel nobis illo quam, consequuntur ducimus! Velit, ab deleniti?</p>
+            </div>
+        </section>
+
+        <section id="container2">
+            <div class="box1">
+               <img src="https://cdn.blablacar.com/wp-content/uploads/br/2024/05/05094506/como-planejar-uma-viagem.webp">
+            </div>
+            <div class="box2">
+                <h1>Titulo</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe libero ullam assumenda in, voluptatibus ad delectus, vitae perferendis quis velit vel nobis illo quam, consequuntur ducimus! Velit, ab deleniti?</p>
+            </div>
+        </section>
+
+        <section class="container3">
+            <div class="image">
+                <img src="https://cdn.blablacar.com/wp-content/uploads/br/2024/05/05094506/como-planejar-uma-viagem.webp">
+            </div>
+        </section>
+
+        <div class="tit">
+            <h1>Nossas Viagens</h1>
+        </div>
+
+        <section class="container4"><a hre></a>
+            <div class="box4">
+                <img class="viagem"
+                src="https://www.travelclass.tur.br/uploads/2020/08/1-1275x850.jpg" alt="">
+
+                <h1>Pernambuco</h1>
+                <h5>R$ 399,90</h5>
+
+            </div>
+
+            <div class="box4">
+                <img class="viagem"
+                src="https://enconcreto.com.sv/wp-content/uploads/2018/02/Salvador-del-Mundo-1.jpg">
+
+                <h1>Salvador</h1>
+                <h5>R$ 399,90</h5>
+            </div>
+
+            <div class="box4">
+                <img class="viagem"
+                src="https://th.bing.com/th/id/OIP.Xl425LwavuG-AgD7f9-XOgHaEJ?rs=1&pid=ImgDetMain">
+
+                <h1>Gramado</h1>
+                <h5>R$ 399,90</h5>
+            </div>
+
+            <div class="box4">
+                <img class="viagem"
+                src="https://th.bing.com/th/id/OIP.Xi7e2cv2mNWeTCEXyeVidQHaE8?rs=1&pid=ImgDetMain">
+
+                <h1>Fortaleza</h1>
+                <h5>R$ 399,90</h5>
+            </div>
+        </section>
+</main>
+
+<footer>
+    <div><p>Site desenvolvido pr Gabriel Silva</p></div>
+</footer>
+
+</body>
+</html>
