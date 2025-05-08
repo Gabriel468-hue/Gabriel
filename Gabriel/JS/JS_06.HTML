@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Enunciado: Criar dois inputs numéricos e um botão. Quando clicado, deve exibir a somo dos dois números.</p>
+
+    <input type="number" id="n2">
+    <button onclick="desconto()">Somar</button>
+<script>
+    function desconto() {
+        let produto = 100;
+        let porcentagem = Number(document.getElementById("n2").value);
+        alert("o valor do produto é: " + (produto * porcentagem/100));
+    }
+</script>
+</body>
+</html>

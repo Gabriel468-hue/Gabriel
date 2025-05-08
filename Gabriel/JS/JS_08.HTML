@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="password" placeholder="Digite a sua senha" id="senha">
+    <input type="user" placeholder="Digite o seu usuário" id="user">
+    <button onclick="verificar()" id="login">verificar</button> 
+
+    <script>
+        function verificar() {
+
+            let user = document.getElementById("user").value;
+            let senha = document.getElementById("senha").value;
+
+            if (user==='admin' && senha==='1234') {
+                alert("Acesso concluido")
+            } else {
+                alert("Tente novamente")
+            }
+        }
+    </script>
+</body>
+</html>
